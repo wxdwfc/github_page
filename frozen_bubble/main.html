@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>Game test</title>
+    <script src="levels.js"></script>
+    <script src = "Point.js"></script>
+    <script src="Compressor.js"></script>
+    <script src = "ImageLoader.js"></script>
+    <script src="BubbleManager.js"></script>
+    <script src = "BubbleFont.js"></script>
+    <script src = "GameWindow.js"></script>
+    <script src = "Utility.js"></script>
+    <script src = "Launcher.js"></script>
+    <script src = "Bubble.js"></script>
+    <script>
+      window.onload = function(){
+      document.body.onkeydown = function(event){
+      onKeyPress(event);
+      };
+      }
+    </script>
+  </head>
+  <body>
+    <!--
+	<audio src="music/bgm.mp3" autoplay="autoplay"></audio>-->
+    <canvas id = "canvas" width="640" height="480"></canvas>
+    <script src = "main.js"></script>
+  </body>
+</html>
